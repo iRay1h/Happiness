@@ -1,0 +1,626 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* NavBar */
+
+nav {
+
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    background-color: rgb(245, 203, 0);
+    height: 12vh;
+
+}
+
+nav img {
+
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.NavTxt {
+
+    display: flex;
+    gap: 4vh;
+    align-items: center;
+    margin-left: 850px;
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* HOW HAPPY ARE YOU? */
+
+.bannerHOW {
+
+    display: flex;
+    height: 150vh;
+
+}
+
+.bannerHOW img {
+
+    margin-left: 10vh;
+    margin-top: 15vh;
+
+}
+
+.howTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    margin-top: 30vh;
+
+}
+
+.howTxt h1 {
+
+    font-size: 10vh;
+    width: 70vh;
+    transform: scaleY(1.4);
+    font-weight: 10000;
+
+}
+
+.howTxt p {
+
+    margin-top: 7vh;
+    width: 70vh;
+
+}
+
+.howTxt button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 4vh;
+    background-color: rgb(245, 203, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.howTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+/* WE CAN HELP YOU TO BE HAPPY */
+
+.bannerWE {
+
+    display: flex;
+    background-color: rgb(245, 203, 0);
+
+}
+
+.weTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    margin-top: 60vh;
+    height: 115vh;
+
+}
+
+.weTxt h1 {
+
+    font-size: 9vh;
+    width: 90vh;
+    transform: scaleY(1.5);
+    font-weight: 10000;
+
+}
+
+.weTxt p {
+
+    margin-top: 7vh;
+    width: 70vh;
+
+}
+
+.weTxt button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 4vh;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.weTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.weTxt img {
+
+    position: absolute;
+    width: 120vh;
+    margin-left: 52vh;
+    margin-top: -25vh;
+
+}
+
+/* Sobreposicionado */
+
+.sobreposicion {
+
+    display: flex;
+    position: absolute;
+    padding: 90px;
+    background-color: rgb(230, 230, 230);
+    flex-direction: row;
+    justify-content: space-around;
+    width: 82%;
+    height: 55vh;
+    align-items: center;
+    margin: auto;
+    margin-left: 120px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-top: -200vh;
+
+}
+
+.sobreTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60vh;
+
+}
+
+.sobreTxt h1 {
+
+    color: rgb(245, 203, 0);
+    width: 35vh;
+    transform: scaleY(1.8);
+
+}
+
+.sobreTxt p {
+
+    margin-top: 5vh;
+    width: 35vh;
+
+}
+
+.sobreTxt button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: medium;
+    background-color: rgb(230, 230, 230);
+    margin-top: 3vh;
+
+}
+
+.sobreTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.stats {
+
+    gap: 50px;
+    display: flex;
+    margin-left: -10vh;
+
+}
+
+/* EXTINT */
+
+.exterior {
+
+    height: 150vh;
+
+}
+
+.interior {
+
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    width: 82%;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 120px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-top: 20vh;
+}
+
+.interior img {
+
+    margin-right: 10vh;
+
+}
+
+.intTxt {
+
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intTxt h1 {
+
+    color: rgb(245, 203, 0);
+    transform: scaleY(1.4);
+    font-size: 8vh;
+
+}
+
+.intTxt p {
+
+    width: 50vh;
+    margin-top: 4vh;
+
+}
+
+.intButton {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    height: 8vh;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: -20vh;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: white;
+    margin-right: -120vh;
+    margin-left: -75vh;
+
+}
+
+.intButton:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.intTxt img {
+
+    width: 40vh;
+    margin-top: 30vh;
+    margin-left: 24vh;
+
+}
+
+/* ABOUT US */
+
+.aboutUs {
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 140vh;
+
+}
+
+.aboutTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.aboutTxt h1 {
+
+    color: rgb(245, 203, 0);
+    margin-top: 15vh;
+
+}
+
+.aboutTxt p {
+
+    color: white;
+    width: 100vh;
+
+}
+
+.aboutUs button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 4vh;
+    background-color: rgb(245, 203, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.aboutUs button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+/* OUR TEAM */
+
+.outTeam {
+
+    display: flex;
+    margin-bottom: 20vh;
+
+}
+
+.outTeam img {
+
+    margin-top: 20vh;
+    margin-left: 2vh;
+
+}
+
+.ourTxt {
+
+    margin-top: 60vh;
+    margin-left: 10vh;
+
+}
+
+.ourTxt h1 {
+
+    transform: scaleY(1.4);
+    font-size: 5vh;
+
+}
+
+.ourTxt p {
+
+    width: 60vh;
+    margin-top: 6vh;
+
+}
+
+.ourTxt button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 4vh;
+    background-color: rgb(245, 203, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ourTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+/* TRY */
+
+.try {
+
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    height: 150vh;
+
+}
+
+.tryTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50vh;
+    margin-left: 10vh;
+
+}
+
+.tryTxt h1 {
+
+    width: 80vh;
+    font-size: 8vh;
+    transform: scaleY(1.5);
+
+}
+
+.tryTxt p {
+
+    margin-top: 8vh;
+    width: 70vh;
+
+}
+
+.tryTxt button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 4vh;
+    background-color: rgb(245, 203, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tryTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.try img {
+
+    margin-top: 20vh;
+    display: flex;
+
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+
+    display: flex;
+    margin-top: 20vh;
+    height: 100vh;
+
+}
+
+/* SUSCRIBE FORM */
+
+
+.info {
+    background-color: black;
+    width: 80vh;
+    height: 85vh;
+    color: white;
+    padding: 30px;
+    margin-left: 20vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.footer-text {
+    font-size: 13px;
+    line-height: 1.4;
+    color: white;
+
+}
+
+/* SUBSCRIBE TXT FORM */
+
+.subscribeTxt {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15vh;
+    margin-left: 10vh;
+
+}
+
+.subscribeTxt h1 {
+
+    font-size: 6vh;
+    width: 60vh;
+    transform: scaleY(1.5);
+    color: rgb(245, 203, 0);
+
+}
+
+.subscribeTxt p {
+
+    margin-top: 5vh;
+    width: 80vh;
+
+}
+
+.subscribeTxt button {
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    height: 7vh;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: white;
+    margin-top: 5vh;
+
+}
+
+.subscribeTxt button:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.contact {
+
+    background-color: rgb(245, 203, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 140vh;
+}
+
+.contactTxt{
+
+    margin-top: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
