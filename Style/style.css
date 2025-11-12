@@ -717,3 +717,119 @@ textarea {
     height: 3vh;
 
 }
+
+/* =========================================================
+   MEDIA QUERIES RESPONSIVAS SEGÚN BREAKPOINTS
+   ========================================================= */
+
+/* 1️⃣  Celulares pequeños: 352px – 480px  */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .NavTxt {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 2vh;
+    }
+
+    .bannerHOW {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .howTxt h1 {
+        font-size: 5vh;
+        width: auto;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Agrega aquí ajustes para otros contenedores */
+}
+
+/* 2️⃣  Tablets y smartphones grandes: 481px – 768px  */
+@media (min-width: 481px) and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerHOW {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .weTxt, .howTxt {
+        margin-left: 5vh;
+        margin-top: 10vh;
+        width: 80%;
+    }
+
+    .weTxt h1, .howTxt h1 {
+        font-size: 6vh;
+    }
+}
+
+/* 3️⃣  Laptops pequeñas / tablets en horizontal: 769px – 920px  */
+@media (min-width: 769px) and (max-width: 920px) {
+    .NavTxt {
+        margin-left: 300px;
+        font-size: small;
+    }
+
+    .bannerHOW {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .howTxt h1 {
+        font-size: 8vh;
+    }
+
+    .weTxt h1 {
+        font-size: 7vh;
+    }
+}
+
+/* 4️⃣  Laptops grandes / escritorios pequeños: 921px – 1279px  */
+@media (min-width: 921px) and (max-width: 1279px) {
+    .NavTxt {
+        margin-left: 500px;
+        font-size: smaller;
+    }
+
+    .bannerHOW {
+        height: 120vh;
+    }
+
+    .weTxt h1 {
+        font-size: 8vh;
+    }
+}
+
+/* 5️⃣  Escritorios grandes / monitores: 1280px+ */
+@media (min-width: 1280px) {
+    .NavTxt {
+        margin-left: 850px;
+        font-size: small;
+    }
+
+    .bannerHOW {
+        height: 150vh;
+    }
+
+    .weTxt h1 {
+        font-size: 9vh;
+    }
+}
